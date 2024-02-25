@@ -7,56 +7,62 @@
   <title>Sign-Up Form</title>
 </head>
 <body>
+  <div class="container">
+    <div id="img-section">
+      <div class="glass-box">
+        <img src="eye-glasses.jpg" alt="Eye Glasses Image">
+      </div>
+      <div class="odin-box">
+        <div class="odin-img">
+          <img src="odin-lined.png" alt="Odin Image">
+        </div>
+        <div class="odin-alp">
+          <span style="font-family: Norse-Bold;">ODIN</span>
+        </div>
+      </div>
+      <div class="credit-creator">
+        <a href="https://www.freepik.com/free-photo/optic-glasses-table_7536152.htm#fromView=search&page=1&position=19&uuid=d4497c3d-e7b5-486f-97ac-8288b7c64ad3">Image by KamranAydinov on Freepik</a>
+      </div>  
+    </div>
+    <div id="form-box">
+      <h1>Welcome to Odin Fashion</h1>
+      <p>We are glad to be your no. 1 choice in fashion as we are here to make your life
+        simple and classy just the way you love it.
+      </p>
+      <p>For better ways to serve you, and securing fashion best for you at in and out seasons, we will like to have your info</p>
   
-  <div id="container">
-    <div class="glass-box">
-      <img src="eye-glasses.jpg" alt="Eye Glasses Image">
+      <form action="#" method="post">
+        <ul>
+          <li>
+            <label for="name">FIRST NAME</label>
+            <input type="text" id="name" name="user-first-name" required placeholder="John">
+          </li>
+          <li>
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="user-last-name" required placeholder="Odin">
+          </li>
+          <li>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="user-email" required>
+          </li>
+          <li>
+            <label for="tel">PHONE NUMBER</label>
+            <input type="tel" id="tel" name="user-tel">
+          </li>
+          <li>
+            <label for="pwd">PASSWORD</label>
+            <input type="password" id="pwd" class="error" name="user-pwd" required>
+          </li>
+          <li>
+            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm-pwd" class="error" name="user-confirm-pwd" required>
+          </li>
+        </ul>
+  
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <span class="login">Log in</span></p>
+      </form>
     </div>
-    <div class="odin-box">
-      <img src="odin-lined.png" alt="Odin Image">
-    </div>
-    <div class="credit-creator">
-      <a href="https://www.freepik.com/free-photo/optic-glasses-table_7536152.htm#fromView=search&page=1&position=19&uuid=d4497c3d-e7b5-486f-97ac-8288b7c64ad3">Image by KamranAydinov on Freepik</a>
-    </div>  
-  </div>
-  <div id="form-box">
-    <h1>Welcome to Odin Fashion</h1>
-    <p>We are glad to be your no. 1 choice in fashion as we are here to make your life
-      simple and classy just the way you love it.
-    </p>
-    <p>For better ways to serve you, and securing fashion best for you at in and out seasons, we will like to have your info</p>
-
-    <form action="#" method="post">
-      <ul>
-        <li>
-          <label for="name">FIRST NAME</label>
-          <input type="text" id="name" name="user-first-name" required>
-        </li>
-        <li>
-          <label for="last-name">LAST NAME</label>
-          <input type="text" id="last-name" name="user-last-name" required>
-        </li>
-        <li>
-          <label for="email">EMAIL</label>
-          <input type="email" id="email" name="user-email" required>
-        </li>
-        <li>
-          <label for="tel">PHONE NUMBER</label>
-          <input type="tel" id="tel" name="user-tel">
-        </li>
-        <li>
-          <label for="pwd">PASSWORD</label>
-          <input type="password" id="pwd" name="user-pwd" required>
-        </li>
-        <li>
-          <label for="confirm-pwd">CONFIRM PASSWORD</label>
-          <input type="password" id="confirm-pwd" name="user-confirm-pwd" required>
-        </li>
-      </ul>
-
-      <button type="submit">Create Account</button>
-      <p>Already have an account? Log in</p>
-    </form>
   </div>
 </body>
 </html>
